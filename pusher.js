@@ -17,8 +17,6 @@ const provider = flags.provider
 const cArgs = JSON.parse(flags.constructorArgs)
 const contractPath = args.contract
 
-
-
 result = {}
 const Web3 = require('web3')
 if (typeof web3 !== 'undefined') {
